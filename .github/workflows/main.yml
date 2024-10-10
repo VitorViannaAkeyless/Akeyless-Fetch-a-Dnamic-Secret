@@ -1,7 +1,7 @@
 name: Fetch Postgres Dynamic Secrets
 'on': push
 jobs:
-    fetch_postgres_dynamic_secrets:
+  fetch_postgres_dynamic_secrets:
     runs-on: self-hosted
     name: Fetch Postgres Dynamic Secrets
     permissions:
